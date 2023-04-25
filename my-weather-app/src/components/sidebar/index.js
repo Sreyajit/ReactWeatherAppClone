@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import { SidebarStyledWrapper } from "./style";
 import Button from "../common/button";
 import { useNavigate, useLocation } from "react-router-dom";
