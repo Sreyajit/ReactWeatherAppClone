@@ -1,13 +1,24 @@
 import Header from "../../header";
 import Sidebar from "../../sidebar";
-import { SidebarTabs} from "../../constants"
-
-export const Layout = (props) => {
+import { SidebarTabs } from "../../constants";
+import { Home } from "../../pages/home";
+import { SelectedCitiesList } from "../../pages/cities";
+import { CityDisplayer } from "../../city_displayer";
+export const HomeLayout = () => {
 	return (
 		<>
-			{props.children}
+			<Home />
 			<Sidebar sidebarTabs={SidebarTabs} />
-			<Header/>
+			<Header />
+		</>
+	);
+};
+export const CitiesLayout = () => {
+	return (
+		<>
+			<Sidebar sidebarTabs={SidebarTabs} />
+			<SelectedCitiesList />
+			<CityDisplayer />
 		</>
 	);
 };

@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const CitiesStyledWrapper = styled.div`
 	 {
 		width: 20%;
-		height: 98vh;
+		height: 88vh;
 		display: flex;
-		margin: 10px 0px 0px 160px;
+		margin: 25px 25px 0px 180px;
 		box-sizing: border-box;
 		flex-direction: column;
 		align-content: stretch;
@@ -20,14 +20,7 @@ export const CitiesStyledWrapper = styled.div`
 		height: 10%;
 		font-size: 30px;
 		font-weight: bold;
-	}
-	.content {
-		justify-content: center;
-		display: flex;
-		padding: 5%;
-		margin: 0px 3px 0px 3px;
-		height: 100%;
-		border-top: 1px solid #888888;
+		border-bottom: 1px solid #888888;
 	}
 	.add {
 		fontsize: 100%;

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const HomeStyledWrapper = styled.div`
 	 {
-		z-index: -1;
 		width: 100%;
 		display: flex;
 		// justify-content: center;

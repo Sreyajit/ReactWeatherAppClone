@@ -18,7 +18,7 @@ const Sidebar = (props) => {
 							key={tab.id}
 							name={tab.name}
 							backgroundColor={
-								location.pathname === tab.location ? "yellow" : "purple"
+								location.pathname === tab.location ? "#F1AE1F" : "#7A30D9"
 							}
 							onClick={() => handleClick(tab.name, tab.location)}
 						/>
