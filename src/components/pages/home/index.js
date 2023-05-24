@@ -53,7 +53,6 @@ export const Home = () => {
 								<StarFilled
 									style={{ fontSize: "25px", color: "#F1AE1F" }}
 									onClick={() => cityRemover(item)}
-									// TODO find why this onClick function is not working .
 								/>
 							}
 							bodyStyle={{
